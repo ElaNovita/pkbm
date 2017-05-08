@@ -166,14 +166,12 @@
                 var myChart = new Chart(ctx, {
                   type: 'bar',
                   data: {
-                    labels: ["M", "T", "W"],
+                    labels: ["1", "2","3", "4", "5", "6", "7", "8"],
                     datasets: [{
-                      label: 'apples',
-                      data: [12, 19, 3]
-                    }, {
-                      label: 'oranges',
-                      data: [30, 29, 5]
-                    }]
+                      label: 'nilai',
+                      data: [12, 19, 3, 1, 1, 1, 1, 1],
+                      backgroundColor: "#ff6f00"
+                    } ]
                   }
                 });
 
@@ -181,14 +179,13 @@
                 var myChart = new Chart(ctx, {
                   type: 'pie',
                   data: {
-                    labels: ["M", "T", "W"],
+                    labels: ["Sudah Terverifikasi", "Belum Terverifikasi"],
                     datasets: [{
                       backgroundColor: [
-                        "#2ecc71",
-                        "#3498db",
-                        "#95a5a6"
+                        "#ff6f00",
+                        "#e0e0e0"
                       ],
-                      data: [12, 19, 3]
+                      data: [70, 30]
                     }]
                   }
                 });
