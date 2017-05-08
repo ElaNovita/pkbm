@@ -1,0 +1,55 @@
+input[type="search"] {
+  height: 64px !important; /* or height of nav */
+}
+
+body {
+	background-color: #f5f5f5;
+}
+
+nav {
+	background-color: #ff6f00 !important;
+}
+
+.custom-container {
+	margin-top: 30px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.skor-title {
+	font-size: 18px;
+	color: #0d47a1 !important;
+	margin-top: 15px !important;
+	display: inline-block;
+	/*margin-left: 2px !important;*/
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+	color: #0d47a1 !important;
+}
+
+.center {
+	text-align: center;
+	font-size: 72px;
+}
+
+.content {
+	margin-top: 48px;
+}
+
+.custom-lable {
+	width: 200px;
+}
+
+.card-title-custom {
+	font-size: 18px;
+    font-weight: 300;
+}
+
+.title-small {
+	font-size: 18px;
+}
+
+.quest {
+	margin-top: 16px !important;
+}
