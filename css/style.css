@@ -91,3 +91,11 @@ nav {
 .custom-top {
   border-top: 2px solid #ff6f00;
 }
+
+.kondisi {
+  display: inline;
+}
+
+.up {
+  margin-right: 24px;
+}
