@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+        <style type="text/css">
+            .dropdown-content{
+                margin-top: 64px;
+            }
+            .custom-container {
+                margin-top: 30px;
+                margin-left: 40px;
+                margin-right: 10px;
+            }
+        </style>
+        </head>
+        <body class="grey lighten-4">
+            
+            <!-- navbar -->
+            <ul id="dropdown1" class="dropdown-content">
+              <li><a href="#!">Logout</a></li>
+            </ul>
+
+            <nav class="custom-nav">
+                <div class="">
+                    <div class="nav-wrapper">
+                        <div class="row">
+                            <ul>
+                                <li><a href="home.html"><i class="material-icons left">arrow_back</i> Kembali Ke Beranda</a></li>
+                            </ul>
+                            <div class="col s2 right">
+                                <ul>
+                                    <li><a href="#" class="dropdown-button" href="#!" data-activates="dropdown1">Username<i class="material-icons right">account_circle</i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </nav>
+            <!-- content -->
+            <div class="custom-container">
+                <h5 style="font-weight: 300">7. STANDAR PEMBIAYAAN</h5>
+                <div class="row">
+                    <div class="col s8">
+                        <div class="quest-item">
+                            <div class="row">
+                                <div class="col s12">
+                                    <div class="card">
+                                        <div class="card-content custom-top">
+                                            <p class="card-title-custom">7.1. SUMBER DANA</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col s12">
+                                  <div class="card">
+                                    <div class="card-content">
+                                        <p class="title-small">7.1.1. Jumlah dan sumber dana yang tersedia di PKBM</p>
+                                        <p class="quest">Berapa jumlah dana yang tersedia di PKBM dan dari mana sumber dana tersebut? (data dalam 2 tahun terakhir)</p> 
+                                    </div>
+                                    <div class="card-action">
+                                      <form action="#">
+                                          <p>
+                                              <input type="checkbox" id="test" />
+                                              <label for="test">SMA/SMK/MA atau sederajat</label>
+                                          </p>
+                                          <p>
+                                              <input type="checkbox" id="test2" />
+                                              <label for="test2">Diploma</label>
+                                          </p>
+                                          <p>
+                                              <input type="checkbox" id="test3" />
+                                              <label for="test3">Sarjana</label>
+                                          </p>
+                                          <p>
+                                              <input type="checkbox" id="test4" />
+                                              <label for="test4">Magister</label>
+                                          </p>
+                                          <p>
+                                              <input type="checkbox" id="test5" />
+                                              <label for="test5">Doktor</label>
+                                          </p>
+                                          <p>Lampirkan biodata (Curiculum Vitae) Ketua/Pimpinan PKBM</p>
+                                              <div class="file-field input-field">
+                                                  <div class="btn amber darken-4">
+                                                      <span>File</span>
+                                                      <input type="file">
+                                                  </div>
+                                                  <div class="file-path-wrapper">
+                                                      <input class="file-path validate" type="text" pl>
+                                                  </div>
+                                              </div>
+                                      </form>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col s12">
+                                    <div class="card">
+                                        <div class="card-content custom-top">
+                                            <p class="card-title-custom">6.2. RENCANA KERJA</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col s12">
+                                  <div class="card">
+                                    <div class="card-content">
+                                          <p class="title-small">6.2.1. Rumusan VISI PKBM</p>
+                                          <p class="quest">Apakah PKBM ini memiliki rumusan VISI?</p> 
+                                    </div>
+                                    <div class="card-action">
+                                      <form action="#">
+                                          <p>
+                                              <input name="group1" type="radio" id="radio1" />
+                                              <label for="radio1">Ya</label>
+                                          </p>
+                                          <p>
+                                              <input name="group1" type="radio" id="radio2" />
+                                              <label for="radio2">Tidak</label>
+                                          </p>
+                                          <p>Jika Ya, tuliskan rumusan visi PKBM tersebut</p>
+                                            <div class="row">
+                                              <div class="input-field col s12">
+                                                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                                  <label for="textarea1">Visi</label>
+                                              </div>
+                                          </div>
+                                      </form>
+                                    </div>
+                                  </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <a class="waves-effect waves-light btn amber darken-4" href="home.html">Simpan</a>
+                        <a class="waves-effect waves-light btn amber darken-4" href="quest8.html">Instrumen Berikutnya</a>
+                    </div>
+                    <div class="col s4">
+                        <div class="instrumen">
+                            <div class="row">
+                                <div class="col s12">
+                                    <div class="card" style="position: fixed;">
+                                        <div class="card-content ">
+                                            <span class="card-title">Instrument</span>
+                                                <table class="bordered">
+                                                    <tbody style="color: #039be5">
+                                                        <tr>
+                                                            <td>1.</td>
+                                                            <td><a href="quest.html">Standar Kompetensi Lulusan</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2.</td>
+                                                            <td><a href="quest2.html">Standar Isi</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3.</td>
+                                                            <td><a href="quest3.html">Standar Proses</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>4.</td>
+                                                            <td><a href="quest4.html">Standar Pendidik dan TenagaKependidikan</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>5.</td>
+                                                            <td><a href="quest5.html">Standar Sarana dan Prasarana</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>6.</td>
+                                                            <td><a href="quest6.html">Standar Pengelolaan</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>7.</td>
+                                                            <td><a href="quest7.html">Standar Pembiayaan</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>8.</td>
+                                                            <td><a href="quest8.html">Standar Penilaian Pendidikan</a></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                     
+
+            <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+            <script type="text/javascript" src="js/materialize.min.js"></script>
+            <script type="text/javascript">
+                
+            </script>
+        </body>
+    </html>
