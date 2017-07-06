@@ -16,6 +16,9 @@
                 margin-left: 40px;
                 margin-right: 10px;
             }
+            label {
+                color: #424242 !important;
+            }
         </style>
         </head>
         <body class="grey lighten-4">
@@ -65,29 +68,43 @@
                                     <div class="card-action">
                                       <form action="#">
                                           <p>
-                                              <input name="group1" type="radio" id="radio1" />
-                                              <label for="radio1">Ya</label>
-                                              <p>Lampirkan bukti fisik rumusan SKL untuk setiap program layanan dimaksud</p>
-                                                <div class="file-field input-field">
-                                                    <div class="btn amber darken-4">
-                                                        <span>File</span>
-                                                        <input type="file">
-                                                    </div>
-                                                    <div class="file-path-wrapper">
-                                                        <input class="file-path validate" type="text" pl>
-                                                    </div>
-                                                </div>
+                                              <input type="checkbox" id="test" />
+                                              <label for="test">Memiliki rumusan SKL yang dibuat sendiri</label>
                                           </p>
                                           <p>
-                                              <input name="group1" type="radio" id="radio2" />
-                                              <label for="radio2">Tidak</label>
+                                              <input type="checkbox" id="test1"  />
+                                              <label for="test1">Rumusan SKL yang sesuai dengan Visi Misi Lembaga</label>
                                           </p>
+                                          <p>
+                                              <input type="checkbox" id="test2"  />
+                                              <label for="test2">Memiliki surat penetapan SKL dimaksud</label>
+                                          </p>
+                                          <p>
+                                              <input type="checkbox" id="test3"  />
+                                              <label for="test3">Memiliki refrensi yang relevan (nasional/internasional)</label>
+                                          </p> 
+                                          <p>
+                                              <input type="checkbox" id="test4"  />
+                                              <label for="test4">Program PKBM tidak memiliki rumusan SKL untuk program yang diajukan</label>
+                                          </p> 
                                       </form>
+                                    </div>
+                                    <div class="card-action file-area">
+                                        <p>Lampirkan bukti fisik rumusan SKL untuk setiap program layanan dimaksud</p>
+                                          <div class="file-field input-field">
+                                              <div class="btn amber darken-4">
+                                                  <span>File</span>
+                                                  <input type="file">
+                                              </div>
+                                              <div class="file-path-wrapper">
+                                                  <input class="file-path validate" type="text" pl>
+                                              </div>
+                                          </div>
                                     </div>
                                     <div class="card-action">
                                         <ul class="collapsible" data-collapsible="accordion">
                                             <li>
-                                              <div class="collapsible-header"><p>Contoh Jawaban</p></div>
+                                              <div class="collapsible-header"><p>Jawaban Ideal</p></div>
                                               <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                                             </li>
                                         </ul>
@@ -104,24 +121,47 @@
                                     <div class="card-action">
                                       <form action="#">
                                           <p>
-                                              <input name="group1" type="radio" id="radio3" />
-                                              <label for="radio3">Ya</label>
-                                              <p>Lampirkan bukti fisik rumusan capaian pembelajaran untuk setiap program layanan dimaksud.</p>
-                                                <div class="file-field input-field">
-                                                    <div class="btn amber darken-4">
-                                                        <span>File</span>
-                                                        <input type="file">
-                                                    </div>
-                                                    <div class="file-path-wrapper">
-                                                        <input class="file-path validate" type="text" pl>
-                                                    </div>
-                                                </div>
+                                            <input name="group1" type="radio" id="radio1" />
+                                            <label for="radio1">Program PKBM memiliki rumusan capaian pembelajaran untuk 4 program “life skill”/ pendukung</label>
+                                          </p>
+
+                                          <p>
+                                            <input name="group1" type="radio" id="radio2" />
+                                            <label for="radio2">Program PKBM memiliki rumusan capaian pembelajaran untuk 3 program “life skill”/ pendukung</label>
                                           </p>
                                           <p>
-                                              <input name="group1" type="radio" id="test2" />
-                                              <label for="test2">Tidak</label>
+                                            <input name="group1" type="radio" id="radio3" />
+                                            <label for="radio3">Program PKBM memiliki rumusan capaian pembelajaran untuk 2 program “life skill”/ pendukung</label>
                                           </p>
+                                          <p>
+                                            <input name="group1" type="radio" id="radio4" />
+                                            <label for="radio4">Program PKBM memiliki rumusan capaian pembelajaran untuk 1 program “life skill”/ pendukung</label>
+                                          </p> 
+                                          <p>
+                                              <input name="group1" type="radio" id="radio5" />
+                                                <label for="radio5">Program PKBM tidak memiliki rumusan capaian pembelajaran untuk program “life skill” pendukung</label>
+                                          </p> 
                                       </form>
+                                    </div>
+                                    <div class="card-action file-area">
+                                        <p>Lampirkan bukti fisik rumusan SKL untuk setiap program layanan dimaksud</p>
+                                          <div class="file-field input-field">
+                                              <div class="btn amber darken-4">
+                                                  <span>File</span>
+                                                  <input type="file">
+                                              </div>
+                                              <div class="file-path-wrapper">
+                                                  <input class="file-path validate" type="text" pl>
+                                              </div>
+                                          </div>
+                                    </div>
+                                     <div class="card-action">
+                                        <ul class="collapsible" data-collapsible="accordion">
+                                            <li>
+                                              <div class="collapsible-header"><p>Jawaban Ideal</p></div>
+                                              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                                            </li>
+                                        </ul>
                                     </div>
                                   </div>
                                 </div>
@@ -187,7 +227,17 @@
             <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
             <script type="text/javascript" src="js/materialize.min.js"></script>
             <script type="text/javascript">
-                
+                $(document).ready(function() {
+                   $('input[type="radio"]').click(function() {
+                       if($(this).attr('id') == 'watch-me') {
+                            $('.file-area').show();           
+                       }
+
+                       else {
+                            $('.file-a').hide();   
+                       }
+                   });
+                });
             </script>
         </body>
     </html>

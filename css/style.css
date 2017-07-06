@@ -151,3 +151,7 @@ nav {
   height: 140px;
   padding: 16px;
 }
+
+.file-area{
+  display: none;
+}
